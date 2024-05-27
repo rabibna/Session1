@@ -40,3 +40,17 @@ gst_apple = 0.1*apple
 gst_pie = 0.08*pie 
 print(gst_apple)
 print(gst_pie)
+
+# Write a program to calculate the number of minis in the maxis.
+# total maxis is 2.5*minis
+# 1 minis is 5000
+# calculate how much is 4.5maxis
+
+# value of minis is equal to 5000
+# maxis is equal to 2.5minis
+# 4.5maxis is equal to 2.5*4.5*minis
+# display maxis
+
+minis = 5000
+maxis = 2.5*minis
+print("the value for maxis is: ", 4.5*maxis)
