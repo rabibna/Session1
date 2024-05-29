@@ -1,0 +1,38 @@
+first_num = int(input("Enter first number: "))
+second_num = int(input("Enter second number: "))
+division = first_num / second_num
+multi = first_num * second_num
+add = first_num + second_num
+sub = first_num - second_num
+flodiv = first_num // second_num
+mod = first_num % second_num
+expo = first_num ** second_num
+print("==========AIH Calculator==========")
+print("=====Rabina=======")
+print("Division: ", division,"\n" "Multiplication: ", multi,"\n" "Addition: ",add,"\n" "Substraction: ",sub,"\n" "Floor_division; ",flodiv,"\n" "Modulus: ", mod,"\n" "Exponential: ",expo)
+
+
+pants = 200
+tshirt = 100
+shirt = 150
+sweater = 250
+
+st_pants = (0.01*pants)
+st_tshirt = (0.05*tshirt)
+st_shirt = (0.12*shirt)
+st_sweater = (0.13*sweater)
+
+print("The sales tax is: ", st_pants)
+print("The sales tax is: ", st_tshirt)
+print("The sales tax is: ", st_shirt)
+print("The sales tax is: ", st_sweater)
+
+sv_pants = st_pants+pants
+sv_tshirt = st_tshirt+tshirt
+sv_shirt = st_shirt+shirt
+sv_sweater = st_sweater+sweater
+
+print("The sales value is: ", sv_pants)
+print("The sales value is: ", sv_tshirt)
+print("The sales value is: ", sv_shirt)
+print("The sales value is: ", sv_sweater)
