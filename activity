@@ -1,0 +1,29 @@
+blanket = int(input("Enter the price of blanket: "))
+bedsheet = int(input("Enter the price of bedsheet: "))
+quilt = int(input("Enter the price of quilt: "))
+pillow = int(input("Enter the price of pillow: "))
+carpet = int(input("Enter the price of carpet: "))
+subtotal_sales = blanket + bedsheet + quilt + pillow  +carpet
+print("subtotal before tax is: ", subtotal_sales)
+
+st_blanket = 0.07 * blanket
+st_bedsheet = 0.07 * bedsheet
+st_quilt = 0.07 * quilt
+st_pillow = 0.07 * pillow
+st_carpet = 0.07 * carpet
+print("The sales tax of blanket is: ", st_blanket)
+print("The sales tax of bedsheet is: ", st_bedsheet)
+print("The sales tax of quilt is: ", st_quilt)
+print("The sales tax of pillow is: ", st_pillow)
+print("The sales tax of carpet is: ", st_carpet)
+
+sv_blanket = st_blanket + blanket
+sv_bedsheet = st_bedsheet + bedsheet
+sv_quilt = st_quilt + quilt
+sv_pillow = st_pillow + pillow
+sv_carpet = st_carpet + carpet
+print("The sales value of blanket: ", sv_blanket)
+print("The sales value of bedsheet: ", sv_bedsheet)
+print("The sales value of quilt: ", sv_quilt)
+print("The sales value of pillow: ", sv_pillow)
+print("The sales value of carpet: ", sv_carpet)
