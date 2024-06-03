@@ -49,7 +49,7 @@ else :
 else:
         print("Not eligible for student discount")
 # for not operators
-if is_student and not has_id:  # combine condition with "not"
+if not is_student and  has_id:  # combine condition with "not"
             print("Eligible for student discount.")
 else:
 print("Not eligible for student discount")
