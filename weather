@@ -31,3 +31,25 @@ elif score >= 55: # elif statement
     print("good! your grade is B")
 else : # else statement
     print("Keep trying..try harder!")
+
+
+# Topic : Logical operators (and, or , not)
+
+
+is_student = True
+has_id = False
+if is_student and has_id : # combine condition with "and"
+    print("Eligible for student discount.")
+else :
+    print("Not eligible for student discount")
+
+# for or operators
+ if is_student or has_id:  # combine condition with "or"
+        print("Eligible for student discount.")
+else:
+        print("Not eligible for student discount")
+# for not operators
+if is_student and not has_id:  # combine condition with "not"
+            print("Eligible for student discount.")
+else:
+print("Not eligible for student discount")
