@@ -1,0 +1,6 @@
+weather =  input("Whats the weather like today(sunny, rainy)? ")
+
+if weather == "sunny":
+    print ("Go outside and have fun!")
+else:
+    print("wear warm clothes!")
