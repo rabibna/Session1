@@ -16,3 +16,18 @@ else:
      print("You are minor", name)
  else :
      print("you are an adult", name)
+
+
+# Topic : Nested Decision structures (if-elif-else)
+score =  int(input("Enter your score: "))  # input your score using integer
+
+if score >=95: # if statement
+    print("Excellent! your grade is HD")
+elif score >= 85: # elif statement
+    print("great job! your grade is D")
+elif score >= 65: # elif statement
+    print("very good! your grade is c")
+elif score >= 55: # elif statement
+    print("good! your grade is B")
+else : # else statement
+    print("Keep trying..try harder!")
