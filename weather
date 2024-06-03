@@ -53,3 +53,12 @@ if not is_student and  has_id:  # combine condition with "not"
             print("Eligible for student discount.")
 else:
 print("Not eligible for student discount")
+
+
+# topic : The while loop (condition-controlled)
+
+count = 1
+while count <= 5:
+    print(f"counting...{count}")
+    count += 1 # increment count
+    count -= 1 # decrement count
