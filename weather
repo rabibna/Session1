@@ -4,3 +4,15 @@ if weather == "sunny":
     print ("Go outside and have fun!")
 else:
     print("wear warm clothes!")
+# Part A : Decision making with conditional statement
+
+
+
+ # Topic : The if statement
+ age = int(input("Enter your age: "))
+ name = str(input("Enter your name: "))
+
+ if age < 18 :
+     print("You are minor", name)
+ else :
+     print("you are an adult", name)
