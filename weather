@@ -26,6 +26,13 @@ if score >=95: # if statement
 elif score >= 85: # elif statement
     print("great job! your grade is D")
 elif score >= 65: # elif statement
+
+# Topic : Sentinels (loop termination with a specific value)
+number = 0 # assigned the value from starting
+while number != -1:   # loop untill user enters -1
+    number = int(input("Enter a number (or -1 to quit): ")) # input statements that leads to a variable number
+    if number != -1:
+        print(f"you entered: {number}")
     print("very good! your grade is c")
 elif score >= 55: # elif statement
     print("good! your grade is B")
