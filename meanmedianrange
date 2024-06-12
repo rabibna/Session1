@@ -1,0 +1,8 @@
+import pandas
+import pandas as pd
+import matplotlib.pyplot as plt
+data = pd.read_csv("blood_pressure.csv") # display the data
+avg_systolic = data['Systolic'].mean()
+avg_diastolic = data['Diastolic'].mean()
+print(f"Average Systolic BP: {avg_systolic: .2f} mmhg")
+print(f"Average Diastolic BP: {avg_diastolic: .2f} mmhg")
